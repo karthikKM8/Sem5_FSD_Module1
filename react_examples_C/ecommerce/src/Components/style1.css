@@ -1,0 +1,22 @@
+.ball{
+    width: 100px;
+    height: 100px; 
+    background-color: #61dafb;
+    border: 1px solid black;
+    border-radius: 50%;
+    animation-name: ballspin;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+  }
+  @keyframes ballspin {
+    from {
+      background-color: #61dafb;
+      transform: rotate(0deg);
+      transform: translateX(-50px);
+    }
+    to {
+      background-color: rgb(red, green, blue);
+      transform: rotate(360deg);
+      transform: translateX(1000px);
+    }
+  }
